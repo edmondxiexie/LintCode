@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.*;
 
 /**
  * Created by Edmond on 10/28/16.
@@ -93,6 +90,42 @@ public class US_Giants_5 {
             String b = (String) o2 + o1;
             return -(a.compareTo(b));
         }
+    }
+
+    /**
+     * 182. Delete Digits.
+     * @param A: A positive integer which has N digits, A is a string.
+     * @param k: Remove k digits.
+     * @return A string
+     */
+    public String DeleteDigits(String A, int k) {
+        StringBuilder sb = new StringBuilder(A);
+        int i, j;
+        for (i = 0; i < k; i++) {
+            for (j = 0; j < sb.length() - 1 && sb.charAt(j) <= sb.charAt(j + 1); j++) {
+            }
+            sb.delete(j, j + 1);
+        }
+        while (sb.length() > 1 && sb.charAt(0)=='0') {
+            sb.delete(0, 1);
+        }
+        return sb.toString();
+
+    }
+
+    /**
+     * 116. Jump Game.
+     * @param A: A list of integers
+     * @return The boolean answer
+     */
+    public boolean canJump(int[] A) {
+        int reach = 0;
+        int i = 0;
+        while (i < A.length && i <= reach) {
+            reach = Math.max(reach, i + A[i]);
+            i++;
+        }
+        return reach >= A.length - 1;
     }
 
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a20654a-9997-45b1-9f16-40a0b215c123" name="Default" comment="added 82 46 178">
+    <list default="true" id="8a20654a-9997-45b1-9f16-40a0b215c123" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/US_Giants_5.java" afterPath="$PROJECT_DIR$/src/US_Giants_5.java" />
     </list>
@@ -28,11 +28,9 @@
       <file leaf-file-name="US_Giants_5.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/US_Giants_5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="121">
+              <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -593,7 +591,7 @@
       <option name="presentableId" value="Default" />
       <updated>1477684205238</updated>
       <workItem from="1477684206794" duration="777000" />
-      <workItem from="1477775666750" duration="4757000" />
+      <workItem from="1477775666750" duration="7899000" />
     </task>
     <task id="LOCAL-00001" summary="first try IntelliJ git plugin">
       <created>1477684372915</created>
@@ -616,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477776789428</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added 184">
+      <created>1477801593607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1477801593607</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5534000" />
+    <option name="totallyTimeSpent" value="8676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1234" height="778" extended-state="6" />
@@ -686,7 +691,8 @@
     <MESSAGE value="first try IntelliJ git plugin" />
     <MESSAGE value="added US_Giants_5" />
     <MESSAGE value="added 82 46 178" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 82 46 178" />
+    <MESSAGE value="added 184" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 184" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -729,13 +735,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/US_Giants_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="121">
+          <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
