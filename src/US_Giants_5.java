@@ -128,6 +128,40 @@ public class US_Giants_5 {
         return reach >= A.length - 1;
     }
 
+    /**
+     * 52. Next Permutation.
+     * @param nums: an array of integers
+     * @return return nothing (void), do not return anything, modify nums in-place instead
+     */
+    public int[] nextPermutation(int[] nums) {
+        if (nums.length <= 1)
+            return nums;
+        boolean changed = false;
+        int pivot = nums.length - 2;
+        while (pivot >= 0) {
+            if (nums[pivot] < nums[pivot + 1]) {
+                changed = true;
+                break;
+            }
+            pivot--;
+        }
+        if (!changed) {
+            Arrays.sort(nums);
+            return nums;
+        }
+
+        for (int i = nums.length - 1; i > pivot; i--) {
+            if (nums[i] > nums[pivot]) {
+                int temp = nums[pivot];
+                nums[pivot] = nums[i];
+                nums[i] = temp;
+                break;
+            }
+        }
+        Arrays.sort(nums, pivot + 1, nums.length);
+        return nums;
+    }
+
     public static void main(String[] args) {
         int[] a = {1,20,23,4,8};
         System.out.println(largestNumber(a));

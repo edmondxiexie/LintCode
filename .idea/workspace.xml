@@ -28,8 +28,8 @@
       <file leaf-file-name="US_Giants_5.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/US_Giants_5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+            <state relative-caret-position="226">
+              <caret line="142" column="31" selection-start-line="142" selection-start-column="31" selection-end-line="142" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -591,7 +591,7 @@
       <option name="presentableId" value="Default" />
       <updated>1477684205238</updated>
       <workItem from="1477684206794" duration="777000" />
-      <workItem from="1477775666750" duration="7899000" />
+      <workItem from="1477775666750" duration="8624000" />
     </task>
     <task id="LOCAL-00001" summary="first try IntelliJ git plugin">
       <created>1477684372915</created>
@@ -621,11 +621,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477801593607</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added 116">
+      <created>1477811897220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1477811897220</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8676000" />
+    <option name="totallyTimeSpent" value="9401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1234" height="778" extended-state="6" />
@@ -692,7 +699,8 @@
     <MESSAGE value="added US_Giants_5" />
     <MESSAGE value="added 82 46 178" />
     <MESSAGE value="added 184" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 184" />
+    <MESSAGE value="added 116" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 116" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -745,8 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/US_Giants_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+        <state relative-caret-position="226">
+          <caret line="142" column="31" selection-start-line="142" selection-start-column="31" selection-end-line="142" selection-end-column="31" />
           <folding />
         </state>
       </provider>
