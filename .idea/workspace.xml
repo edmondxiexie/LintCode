@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a20654a-9997-45b1-9f16-40a0b215c123" name="Default" comment="added 35">
+    <list default="true" id="8a20654a-9997-45b1-9f16-40a0b215c123" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/US_Giants_6.java" afterPath="$PROJECT_DIR$/src/US_Giants_6.java" />
     </list>
     <ignored path="LintCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -632,7 +631,7 @@
       <workItem from="1477684206794" duration="777000" />
       <workItem from="1477775666750" duration="8769000" />
       <workItem from="1477948130472" duration="32000" />
-      <workItem from="1477953980629" duration="2165000" />
+      <workItem from="1477953980629" duration="2176000" />
     </task>
     <task id="LOCAL-00001" summary="first try IntelliJ git plugin">
       <created>1477684372915</created>
@@ -690,11 +689,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477954899012</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added 35">
+      <created>1477956232330</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1477956232330</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11743000" />
+    <option name="totallyTimeSpent" value="11754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1234" height="778" extended-state="0" />
