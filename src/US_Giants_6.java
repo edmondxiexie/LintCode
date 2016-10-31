@@ -44,7 +44,16 @@ public class US_Giants_6 {
      * @return The new head of reversed linked list.
      */
     public ListNode reverse(ListNode head) {
-        // write your code here
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode cur = head;
+        while (cur != null && cur.next != null) {
+            ListNode next = cur.next;
+            cur.next = next.next;
+            next.next = dummy.next;
+            dummy.next = next;
+        }
+        return dummy.next;
     }
 
     public static void main(String[] args) {
