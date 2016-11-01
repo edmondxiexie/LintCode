@@ -56,6 +56,15 @@ public class US_Giants_6 {
         return dummy.next;
     }
 
+    /**
+     * @param head: The first node of linked list.
+     * @return a tree node
+     */
+    public TreeNode sortedListToBST(ListNode head) {
+
+        // write your code here
+    }
+
     public static void main(String[] args) {
         ListNode a = new ListNode(1);
         ListNode b = new ListNode(4);
