@@ -62,8 +62,34 @@ public class US_Giants_6 {
      * @return a tree node
      */
     public TreeNode sortedListToBST(ListNode head) {
-
-        // write your code here
+        if (head == null) {
+            return null;
+        }
+        if (head.next == null) {
+            return new TreeNode(head.val);
+        }
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode slow = head;
+        ListNode fast = head;
+        ListNode last = dummy;
+        while (fast.next != null && fast.next.next != null) {
+            last = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        TreeNode root = new TreeNode(slow.val);
+        if (last != dummy) {
+            last.next = null;
+            ListNode left = dummy.next;
+            root.left = sortedListToBST(left);
+        }
+        if (slow.next != null) {
+            ListNode right = slow.next;
+            slow.next = null;
+            root.right = sortedListToBST(right);
+        }
+        return root;
     }
 
     private ListNode getMidNode(ListNode head) {
