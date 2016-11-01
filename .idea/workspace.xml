@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a20654a-9997-45b1-9f16-40a0b215c123" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TreeNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/US_Giants_6.java" afterPath="$PROJECT_DIR$/src/US_Giants_6.java" />
     </list>
@@ -36,17 +35,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="US_Giants_6.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="US_Giants_6.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/US_Giants_6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="398">
+              <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -645,7 +644,7 @@
       <workItem from="1477775666750" duration="8769000" />
       <workItem from="1477948130472" duration="32000" />
       <workItem from="1477953980629" duration="2618000" />
-      <workItem from="1477967178954" duration="99000" />
+      <workItem from="1477967178954" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="first try IntelliJ git plugin">
       <created>1477684372915</created>
@@ -717,11 +716,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477956239352</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added TreeNode">
+      <created>1477967298346</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1477967298346</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12295000" />
+    <option name="totallyTimeSpent" value="12628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1234" height="778" extended-state="0" />
@@ -792,7 +798,8 @@
     <MESSAGE value="added 52" />
     <MESSAGE value="added US_Giants_6" />
     <MESSAGE value="added 35" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 35" />
+    <MESSAGE value="added TreeNode" />
+    <option name="LAST_COMMIT_MESSAGE" value="added TreeNode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -890,18 +897,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/US_Giants_6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/US_Giants_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
           <folding />
         </state>
       </provider>
