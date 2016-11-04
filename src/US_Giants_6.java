@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Created by Edmond on 10/31/16.
  */
@@ -100,6 +102,33 @@ public class US_Giants_6 {
             fast = fast.next.next;
         }
         return slow;
+    }
+
+    /**
+     * 105. Copy List with Random Pointer.
+     * @param head: The head of linked list with a random pointer.
+     * @return A new head of a deep copy of the list.
+     */
+    public RandomListNode copyRandomList(RandomListNode head) {
+        if (head == null) {
+            return null;
+        }
+        Map<RandomListNode, RandomListNode> map = new HashMap<>();
+        RandomListNode dummy = new RandomListNode(0);
+        dummy.next = head;
+        while (head != null) {
+            map.put(head, new RandomListNode(head.label));
+            head = head.next;
+        }
+        head = dummy.next;
+        RandomListNode newDummy = new RandomListNode(0);
+        newDummy.next = map.get(head);
+        while (head != null) {
+            map.get(head).next = map.get(head.next);
+            map.get(head).random = map.get(head.random);
+            head = head.next;
+        }
+        return newDummy.next;
     }
 
     public static void main(String[] args) {
