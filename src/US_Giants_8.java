@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -47,6 +48,9 @@ public class US_Giants_8 {
      * @return an integer
      */
     public int ladderLength(String start, String end, Set<String> dict) {
+        if (start.equals(end)) {
+            return 1;
+        }
         Queue<String> q = new LinkedList<>();
         q.offer(start);
         Map<String, Integer> map = new HashMap<>();
@@ -79,5 +83,26 @@ public class US_Giants_8 {
             }
         }
         return 0;
+    }
+
+    /**
+     * 18. Subsets II.
+     * @param nums: A set of numbers.
+     * @return A list of lists. All valid subsets.
+     */
+    public ArrayList<ArrayList<Integer>> subsetsWithDup(int[] nums) {
+        Set<ArrayList<Integer>> result = new HashSet<>();
+
+        if (nums == null) {
+            return new ArrayList<>(result);
+        }
+        ArrayList<Integer> list = new ArrayList<>();
+
+        return new ArrayList<>(result);
+    }
+
+    private void solveSubsetWithDup(int[] nums, Set<ArrayList<Integer>> result,
+                                    ArrayList<Integer> list, int start) {
+
     }
 }

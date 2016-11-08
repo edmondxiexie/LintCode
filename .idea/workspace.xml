@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a20654a-9997-45b1-9f16-40a0b215c123" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DirectedGraphNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/US_Giants_8.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/US_Giants_8.java" afterPath="$PROJECT_DIR$/src/US_Giants_8.java" />
     </list>
     <ignored path="LintCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,9 +28,11 @@
       <file leaf-file-name="US_Giants_8.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/US_Giants_8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="473">
+              <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -634,7 +635,7 @@
       <workItem from="1478110529403" duration="1222000" />
       <workItem from="1478221736103" duration="2443000" />
       <workItem from="1478370336336" duration="49000" />
-      <workItem from="1478539084139" duration="3851000" />
+      <workItem from="1478539084139" duration="4895000" />
     </task>
     <task id="LOCAL-00001" summary="first try IntelliJ git plugin">
       <created>1477684372915</created>
@@ -741,11 +742,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478230878233</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add us giants 8">
+      <created>1478544610632</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1478544610632</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24255000" />
+    <option name="totallyTimeSpent" value="25299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1244" height="778" extended-state="0" />
@@ -821,7 +829,8 @@
     <MESSAGE value="Finished 106" />
     <MESSAGE value="Finished giant 6" />
     <MESSAGE value="Finished giant 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished giant 7" />
+    <MESSAGE value="add us giants 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="add us giants 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1169,9 +1178,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/US_Giants_8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="473">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
