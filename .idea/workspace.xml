@@ -28,8 +28,8 @@
       <file leaf-file-name="US_Giants_8.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/US_Giants_8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+            <state relative-caret-position="248">
+              <caret line="126" column="26" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -635,7 +635,7 @@
       <workItem from="1478110529403" duration="1222000" />
       <workItem from="1478221736103" duration="2443000" />
       <workItem from="1478370336336" duration="49000" />
-      <workItem from="1478539084139" duration="4895000" />
+      <workItem from="1478539084139" duration="5973000" />
     </task>
     <task id="LOCAL-00001" summary="first try IntelliJ git plugin">
       <created>1477684372915</created>
@@ -749,11 +749,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478544610632</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add us giants 8">
+      <created>1478585389316</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1478585389316</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25299000" />
+    <option name="totallyTimeSpent" value="26377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1244" height="778" extended-state="0" />
@@ -1178,8 +1185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/US_Giants_8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+        <state relative-caret-position="248">
+          <caret line="126" column="26" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

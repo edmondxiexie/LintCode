@@ -91,18 +91,61 @@ public class US_Giants_8 {
      * @return A list of lists. All valid subsets.
      */
     public ArrayList<ArrayList<Integer>> subsetsWithDup(int[] nums) {
-        Set<ArrayList<Integer>> result = new HashSet<>();
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
 
         if (nums == null) {
             return new ArrayList<>(result);
         }
+        Arrays.sort(nums);
         ArrayList<Integer> list = new ArrayList<>();
-
+        solveSubsetWithDup(nums, result, list, 0);
         return new ArrayList<>(result);
     }
 
-    private void solveSubsetWithDup(int[] nums, Set<ArrayList<Integer>> result,
+    private void solveSubsetWithDup(int[] nums, ArrayList<ArrayList<Integer>> result,
                                     ArrayList<Integer> list, int start) {
+        if (!result.contains(list)) {
+            result.add(new ArrayList<>(list));
+        }
 
+        for (int i = start; i < nums.length; i++) {
+            list.add(nums[i]);
+            solveSubsetWithDup(nums, result, list, i + 1);
+            list.remove(list.size() - 1);
+        }
+    }
+
+    /**
+     * 16 Permutations II.
+     * @param nums: A list of integers.
+     * @return A list of unique permutations.
+     */
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
+        if (nums == null) {
+            return result;
+        }
+        Arrays.sort(nums);
+        int[] record = new int[nums.length];
+        solve(nums, record, result, list);
+        return result;
+    }
+
+    private void solve(int[] nums, int[] record, List<List<Integer>> result, List<Integer> list) {
+        if (list.size() == nums.length && !result.contains(list)) {
+            result.add(new ArrayList<>(list));
+            return;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (record[i] == 1) {
+                continue;
+            }
+            list.add(nums[i]);
+            record[i] = 1;
+            solve(nums, record, result, list);
+            record[i] = 0;
+            list.remove(list.size() - 1);
+        }
     }
 }
