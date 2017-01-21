@@ -37,38 +37,38 @@ public class US_Giants_10 {
      * @param nums: A list of integers.
      * @return: the median of numbers
      */
-    public int[] medianII(int[] nums) {
-        List<Integer> result;
-        if (nums.size() == 0) {
-            return result;
-        }
-
-        int median = nums[0];
-        priority_queue<int> maxHeap, minHeap;
-
-        result.push_back(median);
-        for (int i = 1; i < nums.size(); i++) {
-            if (nums[i] < median) {
-                maxHeap.push(nums[i]);
-            } else {
-                minHeap.push(-nums[i]);
-            }
-
-            if (maxHeap.size() > minHeap.size()) {
-                minHeap.push(-median);
-                median = maxHeap.top();
-                maxHeap.pop();
-            } else if (maxHeap.size() + 1 < minHeap.size()) {
-                maxHeap.push(median);
-                median = -minHeap.top();
-                minHeap.pop();
-            }
-
-            result.push_back(median);
-        }
-
-        return result;
-    }
+//    public int[] medianII(int[] nums) {
+//        List<Integer> result;
+//        if (nums.size() == 0) {
+//            return result;
+//        }
+//
+//        int median = nums[0];
+//        priority_queue<int> maxHeap, minHeap;
+//
+//        result.push_back(median);
+//        for (int i = 1; i < nums.size(); i++) {
+//            if (nums[i] < median) {
+//                maxHeap.push(nums[i]);
+//            } else {
+//                minHeap.push(-nums[i]);
+//            }
+//
+//            if (maxHeap.size() > minHeap.size()) {
+//                minHeap.push(-median);
+//                median = maxHeap.top();
+//                maxHeap.pop();
+//            } else if (maxHeap.size() + 1 < minHeap.size()) {
+//                maxHeap.push(median);
+//                median = -minHeap.top();
+//                minHeap.pop();
+//            }
+//
+//            result.push_back(median);
+//        }
+//
+//        return result;
+//    }
 
     public static void main(String[] args) {
         int[] nums = {5,4,1,2};
